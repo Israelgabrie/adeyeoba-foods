@@ -5,9 +5,9 @@ import { Outlet } from "react-router-dom";
 
 export default function Layout() {
   return (
-    <div style={{ minHeight: "100vh", overflowX: "hidden" }}>
+    <div className="min-h-screen w-full overflow-x-hidden">
       <Navbar />
-      <main>
+      <main className="w-full">
         <Outlet />
       </main>
     </div>
