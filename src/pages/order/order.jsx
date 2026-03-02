@@ -327,7 +327,6 @@ _Sent via Adeyeoba Foods website_
             </p>
           </div>
         </div>
-
       </div>
     </div>
   );
